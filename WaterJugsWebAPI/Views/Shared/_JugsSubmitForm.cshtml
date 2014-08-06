@@ -1,0 +1,23 @@
+﻿<div class="col-xs-3">
+    <img src="../../Content/jugs_guy.png" alt="WATER JUGS!" />
+</div>
+<div class="col-xs-5">
+    <form id="formJugs" method="post">
+        <fieldset>
+            <legend></legend>
+            <label for="txtJugA">Jug A:</label>
+            <input id="txtJugA" name="txtJugA" type="text" value="3" required /><br />
+            <label for="txtJugB">Jug B:</label>
+            <input id="txtJugB" name="txtJugB" type="text" value="5" required /><br /><br />
+            <label for="txtTarget">Target No. of Gallons:</label>
+            <input id="txtTarget" name="txtTarget" type="text" value="4" required /><br />
+            <input id="btnSubmit" type="button" value="Submit!" />
+        </fieldset>
+    </form>
+</div>
+<div class="col-xs-4">
+    <ul id="steps" />
+    <div id="stepCount"></div>
+</div>
+<div class="modal"></div>
+<script type="text/javascript" src="~/Scripts/_JugsSubmitForm.js"></script>
